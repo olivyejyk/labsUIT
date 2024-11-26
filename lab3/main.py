@@ -1,7 +1,7 @@
 from tkinter import Tk, Canvas, filedialog
 from PIL import Image, ImageTk
 
-# Model: Управління даними (шлях до зображень і поточний індс)
+# Model: Управління даними (шлях до зображень і поточний індекс)
 class SlideModel:
     def __init__(self, image_paths):
         self.image_paths = image_paths
